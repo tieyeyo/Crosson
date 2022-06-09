@@ -1,0 +1,258 @@
+.nav-header{
+    justify-content: space-between;
+}
+
+.nav-header-align{
+    justify-content: space-around;
+    display: flex;
+}
+
+.font-phone{
+    transform: rotate(162deg);
+    font-size: 28px;
+}
+
+.titulo{
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+.help-text{
+    font-size: 10px;
+    margin: 0 15px 0 15px;
+}
+
+.div-help-text-number{
+    margin: -8px 0 -8px 0;
+    font-weight: bold;
+}
+
+.div-help-text{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.redes{
+    display: flex;
+}
+
+.font-redes{
+    margin-right: 20px;
+    margin-top: 6px;
+}
+
+@media screen and (max-width: 638px){
+     .font-phone{
+        transform: rotate(162deg);
+        font-size: 20px;
+        margin-top: 9px;
+    }
+    .font-redes{
+        margin-top: 7px;
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    .nav-header-align-language{
+        display: none !important;
+    }
+}
+
+.nav-header-align-language{
+    justify-content: space-around;
+    display: flex; 
+}
+
+@media screen and (max-width: 411px){
+   .titulo{
+       display: none;
+   }
+}
+
+.div-help-language{
+    margin: -3px 0 -8px 0;
+    color: rgb(175, 163, 163);
+}
+
+.div-help-text-language-selected{
+    margin-top: 0;
+}
+
+.language{
+    font-size: 13px;
+    margin: 0 15px 0 15px;
+}
+
+.language-selected{
+    font-size: 13px;
+    margin: 0 15px 0 15px;
+}
+
+.language-icon{
+    margin-top: 4px;
+}
+
+.hr{
+    margin:0;
+}
+
+.menu-nav{
+    justify-content: center;
+}
+
+.main-conteudo{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.main-second-conteudo{
+    display: flex;
+    justify-content: space-around;
+   margin: 80px 100px;
+   
+}
+.div-main-second-conteudo{
+    background-image: url(../assets/img/Background.png);
+    background-size: 100%;
+}
+
+.informations-text{
+    width: 50%;
+}
+
+.titiulo-conteudo{
+    color: rgb(175, 163, 163);
+    font-weight: bold;
+}
+
+.conteudo-informations{
+    display: flex;
+}
+
+.text-informations{
+    max-width: 317px;
+}
+
+.img-informations{
+    margin: 0 15px;
+}
+
+.main-conteudo{
+    margin: 80px 150px;
+}
+
+.btn-about-us{
+    border: solid;
+    background-color: rgba(252, 252, 22, 0.993);
+    border-radius: 5px;
+    border-color: rgba(252, 252, 22, 0.993);
+    text-align: center;
+    width: 141px;
+    margin-top:20px;
+    color: black;
+}
+
+.div-about-us{
+    display: flex;
+}
+
+.nav-link-about-us {
+    display: block;
+    padding: 0 !important;
+}
+
+.about-us-a{
+    margin: 23px 0 0 15px !important; 
+    color: black !important;
+    text-decoration: underline !important;
+    font-size: 13px;
+}
+
+
+@media screen and (max-width:1330px) {
+    main{
+        justify-content: center;
+        text-align: center;
+        display: inline-grid;
+    }
+    .main-conteudo{
+        flex-direction: column;
+    }
+    .informations-text{
+        width: 100%;
+        margin: 0 0 56px 0;
+    }
+    
+    .informations{
+        display: inline-grid;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:787px) {
+   h2{
+       font-size: 20px !important;
+   }
+   .main-conteudo{
+    flex-direction: column;
+    margin: 80px 50px;
+    }
+            
+}
+
+@media screen and (max-width:616px) {
+    h2{
+        font-size: 20px !important;
+    }
+
+    .main-conteudo{
+        flex-direction: column;
+        margin: 80px 50px;
+    }
+ }
+
+ @media screen and (max-width:764px) {
+    hr{
+        display: none;
+    }
+
+    .main-conteudo{
+        flex-direction: column;
+        margin: 80px 50px;
+    }
+ }
+
+ @media screen and (max-width:396px) {
+    h2{
+        font-size: 18px !important;
+    }
+
+    .main-conteudo{
+        flex-direction: column;
+        margin: 80px 50px;
+    }
+ }
+
+ @media screen and (max-width:360px) {
+    h2{
+        font-size: 14.5px !important;
+    }
+    .main-conteudo{
+        flex-direction: column;
+        margin: 80px 50px;
+    }
+
+    .texto-conteudo{
+        font-size: 15px;
+    }
+
+    .titiulo-conteudo{
+        font-size: 18px;
+    }
+
+    .main-conteudo{
+        flex-direction: column;
+        margin: 70px 50px;
+    }
+ }
+
